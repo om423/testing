@@ -1,0 +1,26 @@
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+        <!--Stylesheet-->
+        <!--
+-->
+<link rel="stylesheet" href="{{ site.github.url }}/assets/css/contactstyle.css">
+        <div class="ctnrContactUs">
+            <h1>GET IN TOUCH</h1>
+            <p>Have any questions or suggestions? Drop us a message</p>
+            <form name="contact" method="POST" data-netlify="true">
+                <div class="column">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="Your name here" required>
+                </div>
+                <div class="column">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Your email here" required>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <label for="issue">Describe your issue</label>
+                        <textarea name="issue" placeholder="Describe your issue in detail here" rows="3"></textarea>
+                    </div>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
